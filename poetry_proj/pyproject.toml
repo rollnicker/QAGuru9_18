@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-proj"
+version = "0.1.0"
+description = "Изучаю poetry"
+authors = ["Rolnik Boris <rollnicker@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "8.0.0rc2"
+selene = "2.0.0rc7"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
